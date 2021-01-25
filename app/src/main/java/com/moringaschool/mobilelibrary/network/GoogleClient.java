@@ -1,17 +1,11 @@
 package com.moringaschool.mobilelibrary.network;
 
 import com.moringaschool.mobilelibrary.Constants;
-import com.moringaschool.mobilelibrary.model.GoogleBooksSearchResponse;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
-import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import retrofit2.http.GET;
-import retrofit2.http.Query;
-
-import static com.moringaschool.mobilelibrary.Constants.GOOGLE_BASE_URL;
 
 public class GoogleClient {
 

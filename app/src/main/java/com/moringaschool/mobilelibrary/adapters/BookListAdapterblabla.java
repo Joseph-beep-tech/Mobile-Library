@@ -1,13 +1,10 @@
 package com.moringaschool.mobilelibrary.adapters;
 
-import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -96,11 +93,6 @@ public class BookListAdapterblabla extends RecyclerView.Adapter<BookListAdapterb
 
         }
 
-//        private void flipIt(final View viewToFlip) {
-//            ObjectAnimator flip = ObjectAnimator.ofFloat(viewToFlip, "rotationX", 2.0f, 360f);
-//            flip.setDuration(2000);
-//            flip.start();
-//        }
 
 
 

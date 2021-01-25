@@ -9,9 +9,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.moringaschool.mobilelibrary.BookDetailFragment;
 import com.moringaschool.mobilelibrary.model.Item;
-import com.moringaschool.mobilelibrary.model.VolumeInfo;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class BookPagerAdapter extends FragmentPagerAdapter {

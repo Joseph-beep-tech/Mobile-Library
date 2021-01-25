@@ -9,30 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileLibrary">
-        <activity android:name=".SavedBookActivity"></activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name="com.moringaschool.mobilelibrary.SavedBookActivity"></activity>
+        <activity android:name="com.moringaschool.mobilelibrary.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- <activity android:name=".SavedHeroActivity"> -->
-        <!-- <meta-data -->
-        <!-- android:name="android.support.PARENT_ACTIVITY" -->
-        <!-- android:value="com.moringaschool.mobilelibrary.MainActivity" /> -->
-        <!-- </activity> -->
-        <activity android:name=".BookDetailActivity">
+        </activity>
+
+        <activity android:name="com.moringaschool.mobilelibrary.BookDetailActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.moringaschool.mobilelibrary.BookListActivity" />
         </activity>
-        <activity android:name=".BookListActivity">
+        <activity android:name="com.moringaschool.mobilelibrary.BookListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.moringaschool.mobilelibrary.MainActivity" />
         </activity>
-        <activity android:name=".CreateAccountActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.moringaschool.mobilelibrary.CreateAccountActivity" />
+        <activity android:name="com.moringaschool.mobilelibrary.MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

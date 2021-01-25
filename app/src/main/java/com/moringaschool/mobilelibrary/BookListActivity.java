@@ -11,9 +11,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.google.android.gms.common.api.Api;
 import com.moringaschool.mobilelibrary.adapters.BookListAdapter;
-import com.moringaschool.mobilelibrary.adapters.BookListAdapterblabla;
 import com.moringaschool.mobilelibrary.model.GoogleBooksSearchResponse;
 import com.moringaschool.mobilelibrary.model.Item;
 import com.moringaschool.mobilelibrary.network.GoogleApi;

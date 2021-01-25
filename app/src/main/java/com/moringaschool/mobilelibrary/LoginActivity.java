@@ -85,7 +85,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             return;
         }
         if(password.equals("")){
-            mPasswordEditText.setError("Password cannot be blank");
+            mPasswordEditText.setError("Please Enter Your Password");
             return;
         }
         mAuthProgressDialog.show();

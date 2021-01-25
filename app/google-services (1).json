@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "235394796839",
+    "project_id": "log-in-3ebe2",
+    "storage_bucket": "log-in-3ebe2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235394796839:android:d96b97588e0089ad0fad02",
+        "android_client_info": {
+          "package_name": "com.moringa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235394796839-44vl57rtj1vk4hnspfpt6m9kgllh66qk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moringa",
+            "certificate_hash": "7fc78cc1871bce91fd16b6053eceffcc074e7e25"
+          }
+        },
+        {
+          "client_id": "235394796839-qmmp0ldpfnt9fogpbfvkcatjp12qv2k3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XvqpaRmkMeoL0PyyKuSvhm0BnhAAAA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235394796839-qmmp0ldpfnt9fogpbfvkcatjp12qv2k3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

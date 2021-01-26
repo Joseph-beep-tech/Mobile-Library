@@ -91,9 +91,6 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:textStyle="italic"/>
-
-
-
             </LinearLayout>
             <Button
                 android:layout_width="match_parent"

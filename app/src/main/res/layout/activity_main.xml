@@ -41,7 +41,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="27dp"
         android:layout_marginBottom="46dp"
-        android:background="@color/colorAccent"
+        android:background="#66cdaa"
         android:text="Saved book"
         android:textColor="@color/design_default_color_secondary"
         android:visibility="visible" />

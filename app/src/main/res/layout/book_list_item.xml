@@ -54,6 +54,8 @@
                 android:layout_alignParentRight="true"
                 android:text="SelfLink"
                 android:textColor="@color/white" />
+
+
         </RelativeLayout>
     </LinearLayout>
 </LinearLayout>

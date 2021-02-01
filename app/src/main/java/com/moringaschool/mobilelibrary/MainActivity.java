@@ -18,8 +18,10 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity implements  View.OnClickListener {
 
+
+//    @BindView(R.id.findNextButton) Button SavedActivity;
     @BindView(R.id.booksButton )Button mFindBooksButton;
-    @BindView(R.id.savedBookButton) Button mSavedBooksButton;
+//  @BindView(R.id.savedBookButton) Button mSavedBooksButton;
     @BindView(R.id.bookEditText) EditText mbookEditText;
 
     @Override
@@ -28,7 +30,8 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         mFindBooksButton.setOnClickListener(this);
-        mSavedBooksButton.setOnClickListener(this);
+//        mSavedBooksButton.setOnClickListener(this);
+//        SavedActivity.setOnClickListener(this);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -59,8 +62,14 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
             Intent intent = new Intent(MainActivity.this, BookListActivity.class);
             intent.putExtra("book", book);
             startActivity(intent);
+
+
+
         }
 
     }
+
+
+
 }
 

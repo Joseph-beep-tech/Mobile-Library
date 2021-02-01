@@ -71,7 +71,7 @@ public class BookListAdapter extends RecyclerView.Adapter<BookListAdapter.BookVi
             int itemPosition = getLayoutPosition();
             Intent intent = new Intent(mContext, BookDetailActivity.class);
             intent.putExtra("position", itemPosition);
-            intent.putExtra("booksAgnes", Parcels.wrap(books));
+            intent.putExtra("books", Parcels.wrap(books));
             mContext.startActivity(intent);
         }
 

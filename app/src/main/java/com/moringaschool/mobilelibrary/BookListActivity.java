@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -28,9 +29,15 @@ import retrofit2.Response;
 public class BookListActivity extends AppCompatActivity {
     private static final String TAG = BookListActivity.class.getSimpleName();
 
+
+
     @BindView(R.id.recyclerView) RecyclerView mRecyclerView;
     @BindView(R.id.errorTextView) TextView mErrorTextView;
     @BindView(R.id.progressBar) ProgressBar mProgressBar;
+
+//    @BindView(R.id.findNextButton) Button SavedBookActivity;
+
+
 
     private BookListAdapter mAdapter;
     public List<Item> google_book;
@@ -42,6 +49,15 @@ public class BookListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_book);
         ButterKnife.bind(this);
 
+
+//                    SavedBookActivity.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+//                    Intent intent = new Intent(BookListActivity.this, SavedBookActivity.class);
+//                    startActivity(intent);
+//                }
+//
+//            });
 
 
         final Intent intent = getIntent();

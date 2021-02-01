@@ -9,13 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileLibrary">
-<!--        <activity android:name="com.moringaschool.mobilelibrary.SavedBookActivity"></activity>-->
-        <activity android:name="com.moringaschool.mobilelibrary.LoginActivity">
+
+
+
+        <activity android:name="com.moringaschool.mobilelibrary.AnimActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+
+
+        <activity android:name="com.moringaschool.mobilelibrary.LoginActivity">
+
+
         </activity>
 
         <activity android:name="com.moringaschool.mobilelibrary.SavedBookActivity">
@@ -30,12 +40,17 @@
                 />
         </activity>
         <activity android:name="com.moringaschool.mobilelibrary.CreateAccountActivity" />
-        <activity android:name="com.moringaschool.mobilelibrary.MainActivity" />
+        <activity android:name="com.moringaschool.mobilelibrary.MainActivity" >
 
+
+        </activity>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.moringaschool.mobilelibrary.MainActivity"
                 />
+
+
+
 
         <meta-data
             android:name="preloaded_fonts"
